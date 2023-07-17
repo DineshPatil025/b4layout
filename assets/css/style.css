@@ -1,3 +1,5 @@
+/* main header css */
+
 .mainHearder .navbar-brand {
     width: 120px;
 }
@@ -21,6 +23,8 @@
     border-bottom: 2px solid orange;
 }
 
+/* carasoul css */
+
 .sliderMain img {
 
     height: 400px;
@@ -32,6 +36,8 @@
     top: 25%;
 }
 
+/* paralyx css */
+
 
 .paralyx {
     background: url('../images/lights.jpg') no-repeat fixed center;
@@ -39,6 +45,8 @@
     position: relative;
     background-image: linear-gradient rgba(41, 39, 39, 0.7);
 }
+
+/* product section css */
 
 .prodImg img {
     max-width: 100%;
@@ -60,8 +68,11 @@
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    border-style: none;
+   width: 100%;
+  height: 100%;
+
+    object-fit: cover;
+}
+.newsletter{
+    background-color: rgb(48, 45, 45);
 }
