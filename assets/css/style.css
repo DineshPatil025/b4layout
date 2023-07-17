@@ -1,0 +1,67 @@
+.mainHearder .navbar-brand {
+    width: 120px;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.mainHearder .navbar-nav .active>.nav-link,
+.mainHearder .navbar-nav .nav-link.active,
+.mainHearder .navbar-nav .nav-link.show,
+.mainHearder .navbar-nav .show>.nav-link {
+    color: orange;
+    border-bottom: 2px solid orange;
+
+}
+
+.mainHearder .navbar-nav .nav-link:focus,
+.mainHearder .navbar-nav .nav-link:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.sliderMain img {
+
+    height: 400px;
+    object-fit: cover;
+}
+
+.sliderMain .carousel-caption {
+    bottom: auto;
+    top: 25%;
+}
+
+
+.paralyx {
+    background: url('../images/lights.jpg') no-repeat fixed center;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient rgba(41, 39, 39, 0.7);
+}
+
+.prodImg img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.prod-info {
+    padding-top: 5.5rem;
+}
+
+/* video section css */
+.videoInfo {
+    background: url('../images/media.jpg') no-repeat fixed center;
+    background-size: cover;
+    /* position: relative; */
+    background-image: linear-gradient rgba(41, 39, 39, 0.7);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
