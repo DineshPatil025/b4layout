@@ -82,7 +82,7 @@
 #tmSlider img {
 
     width: 80% !important;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     border-radius: 50%;
     border: 3px solid rgb(191, 77, 77);
 }
@@ -98,4 +98,23 @@
     width: 110%;
     display: flex;
     justify-content: space-between;
+}
+
+/* services page css */
+
+.card-footer.text-capitalize {
+    margin-bottom: 15px;
+}
+
+.accordion .card button{
+    color: white;
+}
+
+
+
+
+/* footer section css */
+
+.footer{
+    background-color: black !important;
 }
